@@ -17,10 +17,10 @@ def assign_rooms(attendees)
  end
 
 def printer(attendees)
-  batch_badge_creator(badge_m).each do |badge|
-    puts batch_badge_creator(badge)
+  batch_badge_creator(attendees).each do |badge|
+    puts badge
   end
-    assign_rooms(rooms).each do |rooms|
-    puts assign_rooms(rooms)
+    assign_rooms(attendees).each do |rooms|
+    puts rooms
   end
 end
