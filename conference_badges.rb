@@ -9,7 +9,6 @@ end
 badge_m
 end
 def assign_rooms(attendees)
-  rooms = []
   counter = 1
   attendees.each_with_index do |attendent, index|
   attendees[attendent] = index
