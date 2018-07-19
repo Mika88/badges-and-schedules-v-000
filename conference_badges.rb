@@ -9,7 +9,8 @@ end
 badge_m
 end
 def assign_rooms(attendees)
+  rooms = []
   attendees.each_with_index do |attendent, index|
-     "Hello, #{attendent}! You'll be assigned to room #{index + 1}!"
+  rooms << "Hello, #{attendent}! You'll be assigned to room #{index + 1}!"
  end
  end
